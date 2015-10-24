@@ -1,0 +1,22 @@
+{
+  "name": "liwi-serverstore",
+  "version": "1.0.0",
+  "description": "server store implementation of liwi for browser",
+  "main": "lib/ServerStore.js",
+  "scripts": {
+    "test": "make tests",
+    "lint": "make lint",
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "prepublish": "make pre-publish",
+    "preversion": "make pre-version",
+    "version": "make version",
+    "watch": "make watch"
+  },
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "repository": "liwijs/liwi-serverstore",
+  "license": "ISC",
+  "devDependencies": {
+    "springbokjs-library": "^11.3.0"
+  }
+}
